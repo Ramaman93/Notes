@@ -1,0 +1,81 @@
+GIT:- It is Popular version Control System in the world-basically is tool to track changes which maintain the history.
+	   -Free and open Source.
+	   -fast and scaleble
+	   ->used to 
+	       -trace the history.
+	       -to collabrate.
+
+Git hub :- It is a Website to Store Chnages and reflect the changes from local to Global repository.
+		   
+		   
+		   Misllenious command 
+		   for changing directory -> cd <folder_name>
+		   for clearing terminal -> clear
+		   for seeing hidden file -> ls -a
+		   for seeiing git is installed in computer we will check -> git --version
+		   for help command ->git help config
+		   for creating a local directory- mkdir
+		   
+		   
+		   
+		   Basic GIT Command
+		   1-git clone <url>
+		   -->to clone a repository on our local machine basically making dublicate of repository.
+			
+		   2-git status 
+			--> to check the status of code.
+			modified -> those file which is modified in local but not updated in repo so we have to add it and then commit it.
+			untracked ->a new file which is unfamilier to git. whose modification can not tracked by git.
+            unmodified-> no changes in that file.
+
+           3-git add <file_name> or <.> (for adding all files)
+		   ->file comes in staging area and ready to commit. (green colour)
+		   
+		   4- git commit -m "meaningfull message"
+		   ->for commit the those changes on local.
+		   
+		   5- git push origin main
+		   ->to upload local data changes to remote.
+		   
+		   
+		  
+		  
+		  #Git Init command
+		  --> to create a new git repository
+		   
+		  git init
+			->git init
+			
+			-> git remote add origin  <url>
+			
+			
+			->git remote -v (to verify remote)
+			
+			To check on which branch we are.
+			->git branch (to check branch)
+			
+			->git branch -M main (to rename branch)
+			
+			->git push origin main
+		   
+		   
+		   
+		   # Branch Command
+		   git branch 
+		   ->to check current branch
+		   
+		   git branch -M main 
+		   ->to rename the current branch with main
+		   
+		   git checkout <branch_name>
+		   -> to navigate from one branch to other
+		   
+	
+		   git checkout -b <new_branch_name>
+		   -> to create new branch 
+		   
+		   git branch -d <branch_name>
+		   -> to delete branch.
+		   
+		   
+		   
